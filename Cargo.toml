@@ -1,5 +1,5 @@
 [package]
-name = "rustagent"
+name = "rustserver"
 version = "0.1.0"
 edition = "2021"
 
@@ -9,4 +9,4 @@ serde_json = "1.0.61"
 actix-web = "4"
 log = "0.4.22"
 env_logger = "0.11.5"
-tracerust = { path = "../rustagent" }
+rustagent = "0.1.1"
